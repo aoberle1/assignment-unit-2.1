@@ -1,36 +1,45 @@
 // REQUIRED FEATURES:
 // 1 - Create a variable called `firstName` and assign it the value of your first name
 let firstName = 'Adam ';
-console.log( firstName );
+console.log( 'My first name is', firstName );
 // 2 - Create a second variable called `lastName` and assign it the value of your last name
 let lastName = 'Oberle';
-console.log( lastName );
+console.log( 'My last name is', lastName );
 // 3 - Create a third variable called `fullName`, assign it the value of your first and last name
 // (remember, you already have variables for this, can you use those?)
 let fullName = firstName + lastName;
 // 4 - Console log the value of `fullName`
-console.log ( fullName )
+console.log ( 'My full name is', fullName )
 // 5 - Create a variable called `luckyNumber` and assign it the value of your lucky number.
-
+let luckyNumber = 34;
+console.log( 'My lucky number is: ' + luckyNumber );
 // 6 - Console log this sentence, adding in the variables you created above: 
 // 'My name is (full name), and I think (lucky number) is a winner!'.
 // Refer back to the videos if you need help with this one.
-
+console.log( 'My name is', fullName, 'and I think ' + luckyNumber, 'is a winner!');
 // 7 - Create a variable named `adventurous` and set it to a boolean value (true or false)
-
+let adventurous = true;
 // 8 - Create a variable named `food`, and set its value to a string of your favorite food
-
+let food = 'chicken';
 // 9 - Create a variable called `pets` and set it to the value of the number of pets you have
-
+let pets = 3
+console.log( 'I have ' + pets, 'cats, and they are the best.');
 // 10 - Create a variable called `friendsPets` and assign it the value of the number of pets your friend has
-
+let friendsPets = 2;
+console.log( 'My friend has ' + friendsPets, 'cats, and they are the worst.');
 // 11 - Add two pets to your `pets` variable
-
+friendsPets += 2;
+console.log( 'My friend got 2 dogs and now has ' + friendsPets, 'animals.');
 // 12 - Create a constant variable called `allowedPets` and set it to a number value of your choice
-
+let allowedPets = 4;
 // 13 - Create a conditional: if adventurous is true, console log "Adventures are great!", 
 // if it's not true, console log "How about we stay home?"
-
+if (adventurous){
+    console.log( 'Adventures are Great!' );
+}
+else {
+    console.log( 'How about we stay home?')
+}
 
 // 14 - Create a compound conditional: if luckyNumber is 2 and adventurous is true,
 // console log "Roll the dice!"
