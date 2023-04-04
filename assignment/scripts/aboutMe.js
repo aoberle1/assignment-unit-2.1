@@ -28,8 +28,8 @@ console.log( 'I have ' + pets, 'cats, and they are the best.');
 let friendsPets = 2;
 console.log( 'My friend has ' + friendsPets, 'cats, and they are the worst.');
 // 11 - Add two pets to your `pets` variable
-friendsPets += 2;
-console.log( 'My friend got 2 dogs and now has ' + friendsPets, 'animals.');
+pets += 2;
+console.log( 'I got 2 dogs and now I have ' + friendsPets, 'animals.');
 // 12 - Create a constant variable called `allowedPets` and set it to a number value of your choice
 let allowedPets = 4;
 // 13 - Create a conditional: if adventurous is true, console log "Adventures are great!", 
