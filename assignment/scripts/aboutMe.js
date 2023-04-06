@@ -29,7 +29,7 @@ let friendsPets = 2;
 console.log( 'My friend has ' + friendsPets, 'cats, and they are the worst.');
 // 11 - Add two pets to your `pets` variable
 pets += 2;
-console.log( 'I got 2 dogs and now I have ' + friendsPets, 'animals.');
+console.log( 'I got 2 dogs and now I have ' + pets, 'animals.');
 // 12 - Create a constant variable called `allowedPets` and set it to a number value of your choice
 const allowedPets = 6;
 // 13 - Create a conditional: if adventurous is true, console log "Adventures are great!", 
@@ -68,12 +68,25 @@ else{
 // be sure to think through all the scenarios. 
 // console.log `mostPets` after the conditional has run.
 
+let mostPets;
+
+if ( pets > friendsPets ){
+    mostPets = pets
+    console.log( 'I have the most pets, which is ' + mostPets )
+}
+else {
+    mostPets = friendsPets
+    console.log( 'My friend has the most pets, which is ' + mostPets )
+}
+
 // 17 - Write a *switch* statement that logs:
 //      "First is the worst" if your lucky number is 1
 //      "Second is the best" if your lucky number is 2
 //      "Third is the one with the polka dot dress" if your lucky number is 3
 //      Otherwise, log "Luck is what happens when preparation meets opportunity"
 //      You'll need to research how to use switch statements!
+
+
 
 // 18 -- Rewrite question 13 with a `ternary` operator. You'll need to do research!
 
