@@ -89,15 +89,19 @@ else {
 switch ( luckyNumber ){
     case 1:
         console.log( 'First is the worst');
+        break
     case 2:
         console.log( 'Second is the best');
+        break
     case 3:
         console.log( 'This is the one with the polka dot dress');
+        break
     default:
         console.log( 'Luck is what happens when preparation meets opportunity');
-
 }
 
 // 18 -- Rewrite question 13 with a `ternary` operator. You'll need to do research!
 
-
+adventurous ?
+console.log( 'Adventures are Great!' ) :
+console.log( 'How about we stay home?' );
