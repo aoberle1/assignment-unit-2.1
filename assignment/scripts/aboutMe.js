@@ -12,8 +12,8 @@ let fullName = firstName + lastName;
 console.log ( 'My full name is', fullName )
 // 5 - Create a variable called `luckyNumber` and assign it the value of your lucky number.
 let luckyNumber = 34;
-console.log( 'My lucky number is: ' + luckyNumber );
 // 6 - Console log this sentence, adding in the variables you created above: 
+console.log( 'My lucky number is: ' + luckyNumber );
 // 'My name is (full name), and I think (lucky number) is a winner!'.
 // Refer back to the videos if you need help with this one.
 console.log( 'My name is', fullName, 'and I think ' + luckyNumber, 'is a winner!');
@@ -72,12 +72,21 @@ let mostPets;
 
 if ( pets > friendsPets ){
     mostPets = pets
-    console.log( 'I have the most pets, which is ' + mostPets )
+    console.log( 'I have the most pets, which is ' + mostPets );
+}
+else if ( pets < friendsPets ){
+    mostPets = friendsPets
+    console.log( 'My friend has the most pets, which is ' + mostPets );
+}
+else if ( pets === 0 && friendsPets === 0 ){
+    mostPets = 0
+    console.log( 'Nobody has any pets, how lonely!');
 }
 else {
-    mostPets = friendsPets
-    console.log( 'My friend has the most pets, which is ' + mostPets )
+    console.log( 'We have the same number of pets!' );
 }
+
+
 
 // 17 - Write a *switch* statement that logs:
 //      "First is the worst" if your lucky number is 1
